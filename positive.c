@@ -3,6 +3,9 @@ void main(){
 int n;
 scanf("%d",&n);
 if(n>0)
-printf("positive");
+printf("Positive");
+elif(n<0)
+printf("Negative");
 else
-printf("negative");
+  printf("Zero");
+}
